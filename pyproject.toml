@@ -1,0 +1,24 @@
+[project]
+name = "basics-of-ai-agh"
+version = "1.0.0"
+description = "Basics of Artificial Intelligence course at AGH"
+authors = []
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+
+dependencies = [
+    "imbalanced-learn>=0.14.0",
+    "jupyter",
+    "jupyterlab-execute-time",
+    "jupytext",
+    "lightgbm==4.*",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn>=1.7.2",
+    "scikit-surprise>=1.1.4",
+    "torch>=2.8.0",
+]
+
+[tool.uv]
+package = false
